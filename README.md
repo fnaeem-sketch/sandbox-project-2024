@@ -6,6 +6,11 @@ Key infrastructure deployed
     AWS VPC
     Internet Gateway
     3 Public and 3 Private subnets across 2 Availability Zones
-    Public subnets (for resources like Load Balancers and NAT Gateways)
-    Private subnets (for resources like EC2 instances and databases)
+    2 Public subnets (for resources like Load Balancers and NAT Gateways)
+    4 Private subnets (for resources like EC2 instances and databases)
+        2 private application subnets
+        2 private database subnets 
+    
+    Auto assign public IP address to Public Subnets 
+    
 
