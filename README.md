@@ -1,6 +1,7 @@
-# sandbox-project-wordpress
+# Sandbox Project 
+## Deploying a Wordpress Site in AWS
 ---
-## outline 
+## Outline 
 This project hosts a wordpress website using a 3 tier AWS architecture.
 The infrastructure for this project is deployed via terraform.  
 
