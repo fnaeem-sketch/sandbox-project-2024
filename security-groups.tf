@@ -157,13 +157,13 @@ resource "aws_security_group" "efs_sg" {
     security_groups = [var.ec2_connect_sg_id]
   }
 
- # Ingress rule for NFS access from NFS SG
+  # Ingress rule for NFS access from NFS SG
   ingress {
-    description      = "NFS access from NFS SG"
-    from_port        = 2049
-    to_port          = 2049
-    protocol         = "tcp"
-    security_groups  = [var.nfs_sg_id]
+    description     = "NFS access from NFS SG"
+    from_port       = 2049
+    to_port         = 2049
+    protocol        = "tcp"
+    security_groups = [var.nfs_sg_id]
   }
 
   # Egress rule to allow all outbound traffic

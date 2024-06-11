@@ -1,10 +1,11 @@
 # Sandbox Project 
 ## Deploying a Wordpress Site in AWS
----
-## Outline 
-This project hosts a wordpress website using a 3 tier AWS architecture.
-The infrastructure for this project is deployed via terraform.  
----
+
+### Outline 
+This  project hosts a wordpress website using a 3 tier AWS architecture.
+The infrastructure for this project is dvployed via terrafom
+
+
 ### Key infrastructure deployed 
 - AWS VPC
 - Internet Gateway
@@ -20,5 +21,12 @@ The infrastructure for this project is deployed via terraform.
     - Associate route tables to public subnets 
 
 - 5 security groups 
+    - Application Load Balancer SG
+    - EC2 Instance Connect Endpoint SG
+    - App Server Security Group SG
+    - Database Security Group 
+    - EFS Security Group 
+
+- Create an EC2 Instance Connect Endpoint 
     
 

@@ -22,3 +22,8 @@ variable "nfs_sg_id" {
   description = "The Security Group ID for the NFS traffic source."
   type        = string
 }
+
+variable "security_group_id" {
+  type = list(string)
+  description = "Security group IDs"
+}
