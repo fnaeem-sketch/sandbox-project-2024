@@ -36,10 +36,6 @@ The infrastructure for this project is deployed via terrafom
 
 ## Create EFS and RDS 
 An EFS file system allows multiple ec2 instances to access the application code from the same storage source.<br>
-Wordpress files will be stored using EFS so multiple ec2 instances can access them. 
-
-
-
-
-
+Wordpress files will be stored using EFS so multiple ec2 instances can access them.<br>
+We will mount the EFS to our web servers. 
 
