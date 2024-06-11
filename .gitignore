@@ -7,3 +7,4 @@ secrets.txt
 *.tfstate.*
 *.tfplan
 rds.tf
+README-notes.md
