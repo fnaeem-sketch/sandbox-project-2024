@@ -14,4 +14,6 @@ Key infrastructure deployed
     Auto assign public IP address to Public Subnets 
     
     Route table for public subnets
+        Associate route tables to public subnets 
+    
 
