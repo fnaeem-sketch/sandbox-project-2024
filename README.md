@@ -1,4 +1,4 @@
-# sandbox-project-wordpress 8-)
+# sandbox-project-wordpress
 ---
 ## outline 
 This project hosts a wordpress website using a 3 tier AWS architecture.
