@@ -6,3 +6,4 @@ secrets.txt
 *.tfstate
 *.tfstate.*
 *.tfplan
+rds.tf

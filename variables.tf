@@ -23,6 +23,11 @@ variable "nfs_sg_id" {
   type        = string
 }
 
+variable "database_sg_id" {
+  description = "The Security Group ID for tdatabases."
+  type        = string
+}
+
 variable "security_group_id" {
   type        = list(string)
   description = "Security group IDs"

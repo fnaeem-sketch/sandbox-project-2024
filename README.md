@@ -39,3 +39,9 @@ An EFS file system allows multiple ec2 instances to access the application code 
 Wordpress files will be stored using EFS so multiple ec2 instances can access them.<br>
 We will mount the EFS to our web servers. 
 
+## Create RDS Instance and database subnet groups
+Create a MySql instance via terraform 
+
+## Create an application load balancer 
+- Along with the ALB, we create a target group and add the ec2 instance to the target group
+
