@@ -34,5 +34,12 @@ The infrastructure for this project is deployed via terrafom
 - Install Apace server on ec2 instance using 
     - `sudo yum install httpd -y`
 
+## Create EFS and RDS 
+An EFS file system allows multiple ec2 instances to access the application code from the same storage source.<br>
+Wordpress files will be stored using EFS so multiple ec2 instances can access them. 
+
+
+
+
 
 
