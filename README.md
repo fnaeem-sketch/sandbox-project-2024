@@ -1,6 +1,23 @@
 # Sandbox Project 
 ## Deploying a WordPress Site in AWS
 
+<!--
+<div align="center">
+  <img src="https://i.sstatic.net/SZhp7.png" alt="Kubernetes Logo" width="700">
+</div>
+-->
+
+<!-- This is a single-line comment -->
+
+<!--
+  This is a multi-line comment.
+  You can add as many lines as you like.
+-->
+
+<p>This text will be displayed on the webpage.</p>
+<!-- <p>This text will not be displayed because it is commented out.</p> -->
+
+
 ### Outline 
 This project hosts a WordPress website using a 3-tier AWS architecture.
 The infrastructure for this project is deployed via Terraform.
